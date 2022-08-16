@@ -34,7 +34,7 @@ export default function Login() {
                 <div className="mb-3">
                     <label htmlFor="username" className="form-label">Username</label>
                     <input type="username" className="form-control" id="username" aria-describedby="usernameHelp" ref={usernameRef} />
-                    <div id="usernameHelp" className="form-text">We'll never share your email with anyone else.</div>
+                    <div id="usernameHelp" className="form-text">We&apos;ll never share your email with anyone else.</div>
                 </div>
                 <div className="mb-3">
                     <label htmlFor="password" className="form-label">Password</label>
